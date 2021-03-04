@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta charset="utf-8" />
+    <title>3rd hands-on</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .col-8 {
+            background-color: rgb(188, 240, 211);
+        }
+
+        .col-4 {
+            background-color: rgb(240, 185, 240);
+        }
+
+        .material-icons {
+            vertical-align: middle;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">hTrack</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Products
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Goals
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- <span class="badge badge-success " >4.4☆</span>
+      <span class="badge badge-warning " >3.5☆</span>
+      <span class="badge badge-danger " >2.5☆</span> -->
+
+    <!-- <i class="material-icons md-18">star</i> -->
+
+
+
+
+    <br>
+    <div class="container">
+        <h2>Products</h2>
+        <div class="row">
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                        alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Coco Oil(200g) <span class="badge badge-success ">4.4☆</span></h5>
+                        <b>Rs. 200.00</b> <small><s>Rs. 250.00 </s>20%</small></s><i
+                            class="material-icons md-18">local_offer</i>
+                        <p class="card-text">Coconut oil is a plant oil derived from the kernels, meat, and milk of the
+                            coconut palm and fruit. It is used as a food oil, and in industrial applications. It has
+                            high levels of saturated fat, causing some health authorities to recommend limiting
+                            consumption of coconut oil as a food.</p>
+                        <a href="#" class="btn btn-primary"><i class="material-icons md-18">shopping_cart</i>Add to
+                            Cart</a>
+                        <i class="material-icons md-18">favorite_border</i>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1530914547840-346c183410de?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHByb2R1Y3R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Mad About Waves (300 ml) <span class="badge badge-warning ">3.5☆</span>
+                        </h5>
+                        <b>Rs. 150.00</b> <small><s>Rs. 200.00 </s>25%</small></s><i
+                            class="material-icons md-18">local_offer</i>
+                        <p class="card-text">
+                            Mad about Waves is the holistic care and styling regime dedicated to beautifying every wave
+                            type. The range is designed to tame, respect and protect the hair – embracing each unique
+                            pattern, for breezy waves that last.
+                        </p>
+
+                        <a href="#" class="btn btn-primary"><i class="material-icons md-18">shopping_cart</i>Add to
+                            Cart</a>
+                        <i class="material-icons md-18">favorite_border</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjV8fHByb2R1Y3R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Maui Moisture (Bamboo Fibers Shampoo 305ml) <span
+                                class="badge badge-warning ">3.1☆</span></h5>
+                        <b>Rs. 750.00</b> <small><s>Rs. 1,000.00 </s>25%</small></s><i
+                            class="material-icons md-18">local_offer</i>
+                        <p class="card-text">
+                            Exotic bamboo fibers are infused into this fortifying, shampoo blend with castor oil and
+                            neem oil to help strengthen and repair over-styled, damaged hair. It helps to renew and
+                            soften treated, natural or transitioning hair types and encourage healthy-looking glow.
+                        </p>
+
+                        <a href="#" class="btn btn-primary"><i class="material-icons md-18">shopping_cart</i>Add to
+                            Cart</a>
+                        <i class="material-icons md-18">favorite_border</i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1498603911539-01ce6c9ad8f5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                        alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Battlecreek Coffee(200g)<span class="badge badge-danger ">2.5☆</span>
+                        </h5>
+                        <b>Rs. 150.00</b> <small><s>Rs. 200.00 </s>25%</small></s><i
+                            class="material-icons md-18">local_offer</i>
+                        <p class="card-text">
+                            Hand-roasted coffee made in Battle Creek, Michigan. Proceeds go to counseling human
+                            trafficking victims to help them recover back into a normal life.
+                        </p>
+
+                        <a href="#" class="btn btn-primary"><i class="material-icons md-18">shopping_cart</i>Add to
+                            Cart</a>
+                        <i class="material-icons md-18">favorite_border</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 mb-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1528750717929-32abb73d3bd9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8ODZ8fHByb2R1Y3R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Yellow Mustard(200g) <span class="badge badge-success ">4.8☆</span></h5>
+                        <b>Rs. 750.00</b> <small><s>Rs. 1,000.00 </s>25%</small></s><i
+                            class="material-icons md-18">local_offer</i>
+                        <p class="card-text">Mustard is a condiment made from the seeds of a mustard plant. The whole,
+                            ground, cracked, or bruised mustard seeds are mixed with water, vinegar, lemon juice, wine,
+                            or other liquids, salt, and often other flavourings and spices, to create a paste or sauce
+                            ranging in colour from bright yellow to dark brown.</p>
+                        <a href="#" class="btn btn-primary"><i class="material-icons md-18">shopping_cart</i>Add to
+                            Cart</a>
+                        <i class="material-icons md-18">favorite_border</i>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
